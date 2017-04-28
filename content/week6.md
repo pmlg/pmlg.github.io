@@ -1,6 +1,6 @@
 Title: Catchup Summary
-Date: 2017-04-20
-Category: Update
+Date: 2017-04-20 10:20
+
 
 
 This week in the Perth Deep Learning Group we finished off exploring the concepts of
