@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Perth Machine Learning Group - misc</title><link href="http://pmlg.org/" rel="alternate"></link><link href="http://pmlg.org/feeds/misc.atom.xml" rel="self"></link><id>http://pmlg.org/</id><updated>2017-04-20T10:20:00+08:00</updated><entry><title>Catchup Summary</title><link href="http://pmlg.org/catchup-summary.html" rel="alternate"></link><published>2017-04-20T10:20:00+08:00</published><updated>2017-04-20T10:20:00+08:00</updated><author><name>pmlg</name></author><id>tag:pmlg.org,2017-04-20:/catchup-summary.html</id><summary type="html">&lt;p&gt;This week in the Perth Deep Learning Group we finished off exploring the concepts of
+Batch Normalization, Drop-out and Activation functions.&lt;/p&gt;
+&lt;p&gt;In the advanced section we examined how Recurrent Neural networks work by exploring
+the first parts of the Lesson 6 notebooks.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This week in the Perth Deep Learning Group we finished off exploring the concepts of
+Batch Normalization, Drop-out and Activation functions.&lt;/p&gt;
+&lt;p&gt;In the advanced section we examined how Recurrent Neural networks work by exploring
+the first parts of the Lesson 6 notebooks.&lt;/p&gt;</content></entry></feed>
