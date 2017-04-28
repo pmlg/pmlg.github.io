@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Perth Machine Learning Group - misc</title><link href="http://pmlg.org/" rel="alternate"></link><link href="http://pmlg.org/feeds/misc.atom.xml" rel="self"></link><id>http://pmlg.org/</id><updated>2017-04-20T10:20:00+08:00</updated><entry><title>Catchup Summary</title><link href="http://pmlg.org/catchup-summary.html" rel="alternate"></link><published>2017-04-20T10:20:00+08:00</published><updated>2017-04-20T10:20:00+08:00</updated><author><name>pmlg</name></author><id>tag:pmlg.org,2017-04-20:/catchup-summary.html</id><summary type="html">&lt;p&gt;This week in the Perth Deep Learning Group we finished off exploring the concepts of
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Perth Machine Learning Group - misc</title><link href="http://pmlg.org/" rel="alternate"></link><link href="http://pmlg.org/feeds/misc.atom.xml" rel="self"></link><id>http://pmlg.org/</id><updated>2017-04-27T00:00:00+08:00</updated><entry><title>RNN's and Jupyter Notebook Hints</title><link href="http://pmlg.org/rnns-and-jupyter-notebook-hints.html" rel="alternate"></link><published>2017-04-27T00:00:00+08:00</published><updated>2017-04-27T00:00:00+08:00</updated><author><name>pmlg</name></author><id>tag:pmlg.org,2017-04-27:/rnns-and-jupyter-notebook-hints.html</id><summary type="html">&lt;p&gt;This week in the beginner session we explored some tips and tricks for
+getting the most out of Jupyter Notebook. We also looked at how to
+answer the question, "what libraries are even installed".&lt;/p&gt;
+&lt;p&gt;In the advenced hour we continued our exploration of RNN's. We
+examined how you can produce …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This week in the beginner session we explored some tips and tricks for
+getting the most out of Jupyter Notebook. We also looked at how to
+answer the question, "what libraries are even installed".&lt;/p&gt;
+&lt;p&gt;In the advenced hour we continued our exploration of RNN's. We
+examined how you can produce a sequence of outputs from an RNN and
+discussed how the keras implementation of RNN's works. Next week we
+will go through LSTM's.&lt;/p&gt;</content><category term="Summary"></category></entry><entry><title>Catchup Summary</title><link href="http://pmlg.org/catchup-summary.html" rel="alternate"></link><published>2017-04-20T10:20:00+08:00</published><updated>2017-04-20T10:20:00+08:00</updated><author><name>pmlg</name></author><id>tag:pmlg.org,2017-04-20:/catchup-summary.html</id><summary type="html">&lt;p&gt;This week in the Perth Deep Learning Group we finished off exploring the concepts of
 Batch Normalization, Drop-out and Activation functions.&lt;/p&gt;
 &lt;p&gt;In the advanced section we examined how Recurrent Neural networks work by exploring
 the first parts of the Lesson 6 notebooks.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This week in the Perth Deep Learning Group we finished off exploring the concepts of
 Batch Normalization, Drop-out and Activation functions.&lt;/p&gt;
 &lt;p&gt;In the advanced section we examined how Recurrent Neural networks work by exploring
-the first parts of the Lesson 6 notebooks.&lt;/p&gt;</content></entry></feed>
+the first parts of the Lesson 6 notebooks.&lt;/p&gt;</content></entry><entry><title>Deep Learning Summary</title><link href="http://pmlg.org/deep-learning-summary.html" rel="alternate"></link><published>2017-04-04T00:00:00+08:00</published><updated>2017-04-04T00:00:00+08:00</updated><author><name>pmlg</name></author><id>tag:pmlg.org,2017-04-04:/deep-learning-summary.html</id><summary type="html">&lt;p&gt;Last week during the beginner hour we explored the basics of lesson
+1's use of the VGG network.&lt;/p&gt;
+&lt;p&gt;In the advanced section Sharif was kind enough to explain his approach
+to the Quora question and answers problem on Kaggle.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last week during the beginner hour we explored the basics of lesson
+1's use of the VGG network.&lt;/p&gt;
+&lt;p&gt;In the advanced section Sharif was kind enough to explain his approach
+to the Quora question and answers problem on Kaggle.&lt;/p&gt;</content><category term="Summary"></category></entry><entry><title>Next Deep Learning Meeting</title><link href="http://pmlg.org/next-deep-learning-meeting.html" rel="alternate"></link><published>2017-03-30T00:00:00+08:00</published><updated>2017-03-30T00:00:00+08:00</updated><author><name>pmlg</name></author><id>tag:pmlg.org,2017-03-30:/next-deep-learning-meeting.html</id><summary type="html">&lt;p&gt;Hi Perth Deep Learners,&lt;/p&gt;
+&lt;p&gt;We've changed the format. Instead of going through each lecture from
+the mooc, we are splitting our time into two slots, a beginner
+session, from 6-7pm, and an advanced session from 7-8pm.&lt;/p&gt;
+&lt;p&gt;If you are a beginner and haven't been following the course, please
+come to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi Perth Deep Learners,&lt;/p&gt;
+&lt;p&gt;We've changed the format. Instead of going through each lecture from
+the mooc, we are splitting our time into two slots, a beginner
+session, from 6-7pm, and an advanced session from 7-8pm.&lt;/p&gt;
+&lt;p&gt;If you are a beginner and haven't been following the course, please
+come to the beginner session, we will happily go over the basics and
+help you come up to speed. No homework required!&lt;/p&gt;
+&lt;p&gt;For the advanced session, it will be a discussion group around some
+advanced topics. Last week we:
+- Explored an application of Deep Learning in Biology lead by Darcy
+- Learnt more about what you actually get when you ask for a p2.xlarge
+instance from amazon.
+- Explored what a de-convolution means.
+- Explored what an embedding means in a biology domain.&lt;/p&gt;
+&lt;p&gt;In this weeks advanced session I'll start by giving a walk through
+lesson 6 on RNN's and LSTM's as well as give a quick overview of my
+experience dabbling with Tensorflow.&lt;/p&gt;</content><category term="Summary"></category></entry></feed>
