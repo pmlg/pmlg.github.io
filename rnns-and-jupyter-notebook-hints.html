@@ -1,81 +1,130 @@
+
 <!DOCTYPE html>
 <html lang="english">
 <head>
-        <meta charset="utf-8" />
-        <title>RNN's and Jupyter Notebook Hints</title>
-        <link rel="stylesheet" href="http://pmlg.org/theme/css/main.css" />
-        <link href="http://pmlg.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Perth Machine Learning Group Atom Feed" />
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+    <link rel="stylesheet" type="text/css" href="http://pmlg.org/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="http://pmlg.org/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="http://pmlg.org/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="http://pmlg.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Perth Machine Learning Group Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+
+<meta name="author" content="pmlg" />
+<meta name="description" content="This week in the beginner session we explored some tips and tricks for getting the most out of Jupyter Notebook. We also looked at how to answer the question, &#34;what libraries are even installed&#34;. In the advenced hour we continued our exploration of RNN&#39;s. We examined how you can produce …" />
+<meta name="keywords" content="Summary">
+
+<meta property="og:site_name" content="Perth Machine Learning Group"/>
+<meta property="og:title" content="RNN&#39;s and Jupyter Notebook Hints"/>
+<meta property="og:description" content="This week in the beginner session we explored some tips and tricks for getting the most out of Jupyter Notebook. We also looked at how to answer the question, &#34;what libraries are even installed&#34;. In the advenced hour we continued our exploration of RNN&#39;s. We examined how you can produce …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="http://pmlg.org/rnns-and-jupyter-notebook-hints.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2017-04-27 00:00:00+08:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="http://pmlg.org/author/pmlg.html">
+<meta property="article:section" content="misc"/>
+<meta property="article:tag" content="Summary"/>
+<meta property="og:image" content="">
+
+  <title>Perth Machine Learning Group &ndash; RNN&#39;s and Jupyter Notebook Hints</title>
+
 </head>
+<body>
+  <aside>
+    <div>
+      <a href="http://pmlg.org">
+        <img src="http://pmlg.org/theme/img/profile.png" alt="" title="">
+      </a>
+      <h1><a href="http://pmlg.org"></a></h1>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://pmlg.org/">Perth Machine Learning Group </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="http://pmlg.org/category/misc.html">misc</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="http://pmlg.org/rnns-and-jupyter-notebook-hints.html" rel="bookmark"
-           title="Permalink to RNN's and Jupyter Notebook Hints">RNN's and Jupyter Notebook Hints</a></h1>
-    </header>
 
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-04-27T00:00:00+08:00">
-                Published: Thu 27 April 2017
-        </abbr>
+      <nav>
+        <ul class="list">
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="http://pmlg.org/author/pmlg.html">pmlg</a>
-        </address>
-<p>In <a href="http://pmlg.org/category/misc.html">misc</a>.</p>
-<p>tags: <a href="http://pmlg.org/tag/summary.html">Summary</a> </p>
-</footer><!-- /.post-info -->      <p>This week in the beginner session we explored some tips and tricks for
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-You can add links in your config file" href="#" target="_blank"><i class="fa fa-You can add links in your config file"></i></a></li>
+        <li><a class="sc-Another social link" href="#" target="_blank"><i class="fa fa-Another social link"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="rnns-and-jupyter-notebook-hints">RNN's and Jupyter Notebook Hints</h1>
+    <p>
+          Posted on Thu 27 April 2017 in <a href="http://pmlg.org/category/misc.html">misc</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>This week in the beginner session we explored some tips and tricks for
 getting the most out of Jupyter Notebook. We also looked at how to
 answer the question, "what libraries are even installed".</p>
 <p>In the advenced hour we continued our exploration of RNN's. We
 examined how you can produce a sequence of outputs from an RNN and
 discussed how the keras implementation of RNN's works. Next week we
 will go through LSTM's.</p>
-    </div><!-- /.entry-content -->
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="http://pmlg.org/tag/summary.html">Summary</a>
+    </p>
+  </div>
 
-  </article>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://pmlg.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+    <div class="addthis_relatedposts_inline">
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Perth Machine Learning Group ",
+  "url" : "http://pmlg.org",
+  "image": "",
+  "description": ""
+}
+</script>
 
 </body>
 </html>
