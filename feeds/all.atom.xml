@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Perth Machine Learning Group</title><link href="http://pmlg.org/" rel="alternate"></link><link href="http://pmlg.org/feeds/all.atom.xml" rel="self"></link><id>http://pmlg.org/</id><updated>2017-04-27T00:00:00+08:00</updated><entry><title>RNN's and Jupyter Notebook Hints</title><link href="http://pmlg.org/rnns-and-jupyter-notebook-hints.html" rel="alternate"></link><published>2017-04-27T00:00:00+08:00</published><updated>2017-04-27T00:00:00+08:00</updated><author><name>PMLG</name></author><id>tag:pmlg.org,2017-04-27:/rnns-and-jupyter-notebook-hints.html</id><summary type="html">&lt;p&gt;This week in the beginner session we explored some tips and tricks for
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Perth Machine Learning Group</title><link href="http://pmlg.org/" rel="alternate"></link><link href="http://pmlg.org/feeds/all.atom.xml" rel="self"></link><id>http://pmlg.org/</id><updated>2017-05-11T00:00:00+08:00</updated><entry><title>Lesson 7 and Group Poll</title><link href="http://pmlg.org/lesson-7-and-group-poll.html" rel="alternate"></link><published>2017-05-11T00:00:00+08:00</published><updated>2017-05-11T00:00:00+08:00</updated><author><name>PMLG</name></author><id>tag:pmlg.org,2017-05-11:/lesson-7-and-group-poll.html</id><summary type="html">&lt;p&gt;Last week we had a great turn out, with 15 people attending. In the
+beginner session we explored the basics of CNN's as well as looking
+into the implementation of VGG from
+the &lt;a href="http://course.fast.ai"&gt;fast.ai&lt;/a&gt; course. While in the advanced
+session we finally finished RNN's.&lt;/p&gt;
+&lt;p&gt;We also discussed doing a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last week we had a great turn out, with 15 people attending. In the
+beginner session we explored the basics of CNN's as well as looking
+into the implementation of VGG from
+the &lt;a href="http://course.fast.ai"&gt;fast.ai&lt;/a&gt; course. While in the advanced
+session we finally finished RNN's.&lt;/p&gt;
+&lt;p&gt;We also discussed doing a group project. Please use this doodle &lt;a href="http://doodle.com/poll/hay95h9yvdpw98ud"&gt;poll&lt;/a&gt; to indicate your preference. The competitions are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening"&gt;Cervical Cancer Screening&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.kaggle.com/c/youtube8m"&gt;Google Cloud YouTube8m Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.kaggle.com/c/planet-understanding-the-amazon-from-space"&gt;Understanding Amazon from Space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.kaggle.com/c/sberbank-russian-housing-market"&gt;Russian Housing Market&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count"&gt;Counting Sea Lions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.kaggle.com/c/quora-question-pairs"&gt;Question answer Pairs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.synapse.org/#!Synapse:syn4224222/wiki/"&gt;Digital Mammography DREAM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, this week in the advanced session we will explore lesson 7. The wrap up to part 1 of the Fast.ai course.&lt;/p&gt;</content></entry><entry><title>RNN's and Jupyter Notebook Hints</title><link href="http://pmlg.org/rnns-and-jupyter-notebook-hints.html" rel="alternate"></link><published>2017-04-27T00:00:00+08:00</published><updated>2017-04-27T00:00:00+08:00</updated><author><name>PMLG</name></author><id>tag:pmlg.org,2017-04-27:/rnns-and-jupyter-notebook-hints.html</id><summary type="html">&lt;p&gt;This week in the beginner session we explored some tips and tricks for
 getting the most out of Jupyter Notebook. We also looked at how to
 answer the question, "what libraries are even installed".&lt;/p&gt;
 &lt;p&gt;In the advanced hour we continued our exploration of RNN's. We
