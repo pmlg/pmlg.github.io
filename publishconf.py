@@ -18,7 +18,7 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-
+SITELOGO = SITEURL + '/images/network.png'
 
 
 # Following items are often useful when publishing

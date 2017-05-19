@@ -2,7 +2,7 @@
 ##
 # This section should match your Makefile
 ##
-PY=${PY:-python3}
+PY=${PY:-python2}
 PELICAN=${PELICAN:-pelican}
 PELICANOPTS=
 

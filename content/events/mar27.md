@@ -1,6 +1,6 @@
 Title: Next Deep Learning Meeting
 Date: 2017-03-30
-Tags: Summary
+
 
 Hi Perth Deep Learners,
 
