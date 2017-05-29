@@ -6,7 +6,7 @@ In the meet up we covered part of lesson 4 with a focus on &lt;a href="https://e
 &lt;a href="https://www.tensorflow.org/tutorials/word2vec"&gt;word2vec&lt;/a&gt; Note these links just scratch the surface. Embeddings are a very rich area of research.&lt;/p&gt;
 &lt;p&gt;In session 2 John took us through the interesting area of using conv nets to process sound and potential for running this on embedded devices. This work was done over a weekend for the Unearthed Perth hackerthon. Here is a picture from the competition of the Pi calculating a realtime spectrogram (courtesy of Sam Bishop) which was then run through the conv net.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Deep Learning on RPi" src="images/rpinet.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;and we wound up the session with a recent paper from google on learning joint sound and vision on &lt;a href="https://arxiv.org/pdf/1705.08168.pdf"&gt;Conv nets&lt;/a&gt;
+&lt;p&gt;and we wound up the session with a recent paper from google on learning joint sound and vision on &lt;a href="https://arxiv.org/pdf/1705.08168.pdf"&gt;Conv nets&lt;/a&gt;, &lt;a href="https://github.com/pmlg/notebooks/blob/master/Convert%20Soundnet%20to%20Keras.ipynb"&gt;notebook&lt;/a&gt;
 This coming Thursday speakers are as follows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Austin Shen will lead us through session 1&lt;/li&gt;
