@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Perth Machine Learning Group</title><link href="http://pmlg.org/" rel="alternate"></link><link href="http://pmlg.org/feeds/all.atom.xml" rel="self"></link><id>http://pmlg.org/</id><updated>2017-06-01T00:00:00+08:00</updated><entry><title>How to use AWS? How to teach speech?</title><link href="http://pmlg.org/how-to-use-aws-how-to-teach-speech.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>PMLG</name></author><id>tag:pmlg.org,2017-06-01:/how-to-use-aws-how-to-teach-speech.html</id><summary type="html">&lt;p&gt;Thanks to speakers today Austin and Michael, and thank you to all those attending...special thanks to Jennifer for the treats.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Perth Machine Learning Group</title><link href="http://pmlg.org/" rel="alternate"></link><link href="http://pmlg.org/feeds/all.atom.xml" rel="self"></link><id>http://pmlg.org/</id><updated>2017-06-08T00:00:00+08:00</updated><entry><title>Getting AWS setup and the basics of attention</title><link href="http://pmlg.org/getting-aws-setup-and-the-basics-of-attention.html" rel="alternate"></link><published>2017-06-08T00:00:00+08:00</published><updated>2017-06-08T00:00:00+08:00</updated><author><name>PMLG</name></author><id>tag:pmlg.org,2017-06-08:/getting-aws-setup-and-the-basics-of-attention.html</id><summary type="html">&lt;p&gt;Great turn out this week and fantastic to see so many new faces.
+For Session One this week Alan did a great job of talking us through his trails and tribulations in getting AWS setup from a windows platform. The key takeaways were: Use the Windows Bash shell as opposed …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Great turn out this week and fantastic to see so many new faces.
+For Session One this week Alan did a great job of talking us through his trails and tribulations in getting AWS setup from a windows platform. The key takeaways were: Use the Windows Bash shell as opposed to cygwin and how transfer learning can reduce the amount of computation you need to perform, meaning that you can run these models just on your PC, albeit slowly. Finally we concluded can that for lesson 1 probabilistically it can be hard to tell a cat from a plastic bag.&lt;/p&gt;
+&lt;p&gt;For Session Two, the more advanced session, after many AV issues we only had time for one talk on the "basics of attention" We covered at a high level attention for context and location, soft and hard attention. The talk assumed a knowledge of lstm sequence to sequence models and showed, hopefully, seq - seq encoder decoder networks use attention to define context and location for nlp and vision.
+The references for this talk are below:&lt;/p&gt;
+&lt;p&gt;Next week:
+Sessions one will cover lesson three as group learning session.
+Session Two will he a talk on Embeddings by Michael.&lt;/p&gt;
+&lt;h1&gt;References:&lt;/h1&gt;
+&lt;p&gt;[Attention and Augmented Recurrent Neural Networks
+Chris Olah, Shan Carter]
+(http://distill.pub/2016/augmented-rnns/)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/pdf/1508.04025.pdf"&gt;Effective Approaches to Attention-based Neural Machine Translation
+Minh-Thang Luong Hieu Pham Christopher D. Manning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/pdf/1502.03044.pdf"&gt;Show, Attend and Tell: Neural Image Caption Generation with Visual Attention
+Yoshua Bengio et al.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[Kyunghyun Cho p1]
+(https://devblogs.nvidia.com/parallelforall/introduction-neural-machine-translation-with-gpus/)
+[p2]
+(https://devblogs.nvidia.com/parallelforall/introduction-neural-machine-translation-gpus-part-2/)
+&lt;a href="https://devblogs.nvidia.com/parallelforall/introduction-neural-machine-translation-gpus-part-3/"&gt;p3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=omHLeV1aicw"&gt;vid&lt;/a&gt;
+&lt;a href="https://www.slideshare.net/xavigiro/deep-learning-for-computer-vision-attention-models-upc-2016"&gt;attention models&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=IxQtK2SjWWM#t=6.055047"&gt;vid&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[Stanford CS231n lecture course notes]
+(http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture10.pdf)&lt;/p&gt;
+&lt;p&gt;[Hard Attention
+DRAW: A Recurrent Neural Network For Image Generation
+Alex Graves et al.]
+(https://arxiv.org/pdf/1502.04623.pdf)&lt;/p&gt;
+&lt;p&gt;[Spatial Transformer Networks
+Max Jaderberg Karen Simonyan Andrew Zisserman Koray Kavukcuoglu]
+(https://arxiv.org/pdf/1506.02025.pdf)&lt;/p&gt;
+&lt;p&gt;[Visual7W: Grounded Question Answering in Images
+Yuke Zhu Oliver Groth Michael Bernstein Li Fei-Fei]
+(https://arxiv.org/pdf/1511.03416.pdf)&lt;/p&gt;
+&lt;p&gt;[Soft Attention
+Action recognition using visual attention
+Shikhar Sharma, Ryan Kiros &amp;amp; Ruslan Salakhutdinov]
+(https://arxiv.org/pdf/1511.04119.pdf)&lt;/p&gt;
+&lt;p&gt;[Recurrent Attentional Networks for Saliency Detection
+Jason Kuen, Zhenhua Wang, Gang Wang]
+(https://arxiv.org/pdf/1604.03227.pdf)&lt;/p&gt;
+&lt;p&gt;[Attention to Scale: Scale-aware Semantic Image Segmentation
+Liang-Chieh Chen et al.]
+(https://arxiv.org/pdf/1511.03339.pdf)&lt;/p&gt;
+&lt;p&gt;[Image Captioning with Semantic Attention
+Quanzeng You at al.]
+(https://arxiv.org/pdf/1603.03925.pdf)&lt;/p&gt;</content></entry><entry><title>How to use AWS? How to teach speech?</title><link href="http://pmlg.org/how-to-use-aws-how-to-teach-speech.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>PMLG</name></author><id>tag:pmlg.org,2017-06-01:/how-to-use-aws-how-to-teach-speech.html</id><summary type="html">&lt;p&gt;Thanks to speakers today Austin and Michael, and thank you to all those attending...special thanks to Jennifer for the treats.&lt;/p&gt;
 &lt;h2&gt;June 1st meetup&lt;/h2&gt;
 &lt;p&gt;Austin took us through session 1 and the trials and tribulations of setting up AWS. We discussed how to divide up data into test train and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Thanks to speakers today Austin and Michael, and thank you to all those attending...special thanks to Jennifer for the treats.&lt;/p&gt;
 &lt;h2&gt;June 1st meetup&lt;/h2&gt;
