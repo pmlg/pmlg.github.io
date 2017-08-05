@@ -9,13 +9,10 @@ In session 2 John took us through the interesting area of using conv nets to pro
 
 ![Deep Learning on RPi](images/rpinet.jpg)
 
-and we wound up the session with a recent paper from google on learning joint sound and vision on [Conv nets](https://arxiv.org/pdf/1705.08168.pdf)
+and we wound up the session with a recent paper from google on learning joint sound and vision on [Conv nets](https://arxiv.org/pdf/1705.08168.pdf), [notebook](https://github.com/pmlg/notebooks/blob/master/Convert%20Soundnet%20to%20Keras.ipynb)
 This coming Thursday speakers are as follows:
 
 + Austin Shen will lead us through session 1
 + Michael Clark will lead us though session 2
 
 Looking forward to seeing you folk on Thursday.
-
-Regards
-Sean
